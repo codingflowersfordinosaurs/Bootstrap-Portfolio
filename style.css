@@ -1,0 +1,47 @@
+/* Global CSS Styles */
+/* NAV */
+.nav {
+  background-color: darkgray;
+  padding: 15px;
+}
+/* FOOTER */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: darkgray;
+  color: #007bff;
+  width: 100%;
+}
+/* Background Image */
+body {
+  background-image: url(./img/background.jpg)
+}
+
+/* Home Page */
+.hero {
+  position: absolute;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0; 
+}
+#welcome {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 275px;
+}
+#home_image {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./img/home_page.jpg)
+}
+
+#portfolio {
+  color: white;
+}
+.contact {
+  color: white;
+}
+.btn {
+  background-color: darkgray;
+  margin-left: 0;
+}
